@@ -1,0 +1,74 @@
+Dynamic Programming:- storing result of a sub problem and 
+using the result if problem occurs is dynamic Programming
+
+//their are sum problems which we solve repeatedly which
+// is un-necessary
+// so we can store the solution
+//and than when again the problem arises we can use that 
+//solution..
+// thats the main behaviour of dynamic Programming.
+
+dividing problems into sub problems
+i.e, concept divide and conquer
+takes place in merge sort
+than storing the result of sub-problems
+and using intoif the same problems
+occurs again...
+
+so, dynamic programming is required where their is 
+requirement of overlapping problems.
+
+
+While solving problems using Divide-and-Conquer method, 
+there may be a case when recursively sub-problems can 
+result in the same computation being performed multiple 
+times. 
+This problem arises when there are identical subproblems 
+arise repeatedly in a recursion.
+
+Dynamic programming is a bottom up technique in which the 
+smaller subproblems are solved first and the result of 
+these are sued to find the solution of the larger 
+sub-problems.
+
+
+==========================================================
+
+ex- fibonaci series
+
+f(n)
+{
+    if(n==0)
+        return 0
+    if(n==1)
+        return 1
+    if(n>1)
+        return (f(n-1)+d(n-2))
+}
+
+
+n:    0 1 2 3 4 5 6 7
+output
+f(n): 0 1 1 2 3 5 8 13
+
+
+// after n=1 , the pattern changes of output
+
+==========================================================
+
+Sometime greedy approach don't works
+so we can use dynamic programming their.
+
+in greedy we have to select a path and go for it
+but about dynamic programming
+we have to go through every steps
+
+Q. like their are coins
+1,5, 7
+and we have to make count of 18
+S:- greedy approach would be attaining it by greatest no
+like 2 * 7 + 4 * 1 => 6 steps
+but 
+about dynamic programming
+7 + 2* 5 + 1 => 4 steps
+

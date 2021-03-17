@@ -1,0 +1,13 @@
+it can be described as a complete tree
+
+but 
+they are stored as an array
+
+array operated as a tree
+
+
+we get index by parent 
+
+it is as binary search tree
+1. max heap 
+2. min heap

@@ -1,0 +1,27 @@
+An algorithm is a set of steps to accomplish a task. Or an algorithm in a
+computer program in which a set of steps applied over a set of input to
+produce a set of output.
+
+
+The most important properties of an algorithm are:
+1. Correctness: The algorithm should be correct. It should be able to process
+all the given inputs and provide correct output.
+2. Efficiency: The algorithm should be efficient in solving problems.
+Efficiency is measured in two parameters. Firs is Time-Complexity, how
+fast result is provided by an algorithm. And the second is SpaceComplexity, 
+much RAM that an algorithm is going to consume to give
+desired result.
+
+Time-Complexity is represented by function T(n) - time versus the input size n.
+Space-Complexity is represented by function S(n) - memory used versus the
+input size n.
+
+
+In an algorithm design there is no one 'silver bullet' that is a cure for 
+all computation problems. Different problems require the use of different 
+kinds of techniques. A good programmer uses all these techniques based 
+on the type of problem. Some commonly-used techniques are:
+Divide and conquer
+Randomized algorithms
+Greedy algorithms (This is not an algorithm, it is a technique.)
+Dynamic programming

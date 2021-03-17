@@ -1,0 +1,26 @@
+bst:- a tree with not more than 2 children is called binary tree
+when smaller is placed in left and larger at right in cildren is 
+called bst.
+anything we insert goes according to the value.
+advantage speed
+
+============================================================
+
+a trie is a tree structure mostly used to store words
+serach words very fast
+each node must have bool value indicating the end
+
+============================================================
+
+hash tables
+faster
+array....with bunch of names...difficult to find out in such 
+large storage
+by putting any value in hash function...it will a index value 
+called hash code.
+by which we will get the required value
+
+===========================================================
+
+Quick sort
+faster than merge sort

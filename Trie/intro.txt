@@ -1,0 +1,7 @@
+trie is a tree structure
+which is mostely used to store word
+
+=> word suuggestion as we type some keyword on google
+
+it let us search word very fast
+

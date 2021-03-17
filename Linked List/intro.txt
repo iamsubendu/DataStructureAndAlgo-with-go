@@ -1,0 +1,26 @@
+often compared to an array
+
+linked list put the values in nodes that are linked with each other
+
+Each node contains the address of next node 
+
+for array we have to take the index value and the value stored can be changed
+but
+for linkedlist we have to go through head and continue till the Kth element
+it is slower thats why
+thus why???
+adding and removing values at the begining of list is fast
+
+for array address locations are physically next to each other
+for that if we have to add something in array in head we have to shift all the values
+that makes it slower and complicated
+
+For double linked list
+it contains the address of next and previous 
+in this case adding element at end will be very easier
+
+circular linked list:- giving address of head to tale...than it can move circularly
+                        but in one direction
+
+double circular linkedlist:- for multi direction we use double circular linked list
+

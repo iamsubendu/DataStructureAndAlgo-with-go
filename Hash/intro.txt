@@ -1,0 +1,40 @@
+//Hash Tables
+
+array + doubly linked list
+
+A hash table is a data structure that is used to store keys/value pairs. 
+It uses a hash function to compute an index into an array in which an element will be inserted or searched.
+
+for a name stored in an array..it will take out long to find out at what index it is stored
+
+thus..their is hash function 
+
+which will spit out the index no as the word is inserted in it
+
+storedfor inserting a value
+we will use hash function to store the value
+and the hash function will store at the right index
+and when we will search for the required value
+it will give us the index
+
+
+each letter of word converted into its ascii convertedthan its sum up 
+than divided by the size of array
+and the no we will get will be its index value
+
+
+sometimes their might be a chance that 2 names have same hash code.
+so for handling it 
+=> collision handling is their
+        =>1. open addressing - if the index is already occupied the next value is stored in the next index value
+                                and when it come for search we will go to where the hash func says us to go
+                                than if not found than we will go to next position from it....
+                                this is faster
+                                but as the names get more and more for the same index or same hash code, name will 
+                                be stored further and further from the real hash code
+
+        thus 
+
+        =>2. seperate chaining - storing multiple name in one slot by using property of linked list
+                                 
+                                 

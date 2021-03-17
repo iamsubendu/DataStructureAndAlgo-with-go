@@ -1,0 +1,12 @@
+a tree with not more than 2 children is called binary tree.
+
+node
+parent
+children
+leaves
+
+smaller value goes left
+larger value goes right
+
+advantage speed
+

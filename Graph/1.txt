@@ -1,0 +1,62 @@
+A graph is an abstract data type
+
+A graph is a non-linear data structure, which consists of vertices(or nodes) 
+connected by edges(or arcs) where edges may be directed or undirected. 
+In Computer science graphs are used to represent the flow of computation(data values).
+
+have edges and vertices/vertex
+
+the node points are called vertex
+and 
+the joining lines or pointing lines are called edges 
+
+when the graph has many edges we call it => dense
+when the graph has less edges we call it => sparse
+
+we can make direct or undirect graph
+undirect graph => every edge is bidirectional
+
+we can also make cyclic graph
+
+we can also make weighted graph
+=> some weights like 20, 10,3 etc on edges
+=> 5 min
+=> 10kg ... anything
+
+It has restrictions
+1. a child can't point towards parent
+2. no cycles are allowed or if its a binary tree their should be max of 2 nodes as children
+
+2 common ways to represent graph with the code
+1> Adjacency List => graph is represented as list of vertices and each vertex
+                     holds the neighbouring vertices
+                     it gonna look like list of lists
+                     This list can be anything as linked list, array,dynamic array ...
+
+                     we will call the vertex as key...as each key will have some of its unique information
+
+2> Adjacency Matrix => we can show it with 2d array
+                        also we can show it for list tooo
+
+                        edges are bidirectional here
+
+
+
+adjacency list are comparibly good than adjacency Matrix
+
+                    Adjacency Matrix    Adjacency List
+Edge LookUp                 O(1)                O(V)
+Add vertex                  O(V^2)              O(1)
+Remove vertex               O(V^2)              O(E)
+Add Edge                    O(1)                O(1)    
+Remove Edge                 O(1)                O(V)
+
+
+
+Application of Graphs:
+
+Computer Science: In computer science, graph is used to represent networks of communication, data organization, computational devices etc.
+Physics and Chemistry: Graph theory is also used to study molecules in chemistry and physics.
+Social Science: Graph theory is also widely used in sociology.
+Mathematics: In this, graphs are useful in geometry and certain parts of topology such as knot theory.
+Biology: Graph theory is useful in biology and conservation efforts.

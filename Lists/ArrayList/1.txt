@@ -1,0 +1,13 @@
+ArrayList
+=> is implemented with the concept of dynamic array
+and linked list 
+=> is implemented with concept of double linked list
+
+
+
+
+ start with index 0
+for inserting the value in between
+we have to update the index no other values after it...
+
+

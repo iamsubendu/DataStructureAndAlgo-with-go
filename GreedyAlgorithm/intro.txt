@@ -1,0 +1,12 @@
+A greedy algorithm is a simple, intuitive algorithm that is
+used in optimization problems. The algorithm makes the optimal choice
+at each step as it attempts to find the overall optimal way to solve
+the entire problem.
+
+Intuitive means having the ability to understand or know
+something without any direct evidence or reasoning process.
+
+A greedy algorithm, as the name suggests, always makes the choice
+that seems to be the best at that moment. This means that it makes
+a locally-optimal choice in the hope that this choice will lead
+to a globally-optimal solution.

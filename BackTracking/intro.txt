@@ -1,0 +1,46 @@
+Its like recursion
+In recursion we guess for a specific path 
+and than go for it
+
+In recursion, the function calls itself until it reaches a base case. 
+In backtracking, we use recursion to explore all the possibilities 
+until we get the best result for the problem.
+
+In Back Tracking its checks out every possible
+way
+and goes down  as greedy
+
+it checks..and if their is no gain
+it backTracks
+but if their is some gain..it goes down with 
+it as greedy
+
+greedy is dumb
+and thats why back Tracking is used for optimisation 
+process
+
+Back tracking is solved by Brute Force Algorithm
+
+==================================================================================
+
+some ex:- 
+
+There are three monks and three demons at one side of a river. We want to
+move all of them to the other side using a small boat. The boat can carry only
+two persons at a time. Given if on any shore the number of demons will be
+more than monks then they will eat the monks. How can we move all of these
+people to the other side of the river safely?
+
+Same as the above problem there is a farmer who has a goat, a cabbage and a
+wolf. If the farmer leaves, goat with cabbage, goat will eat the cabbage. If the
+farmer leaves wolf alone with goat, wolf will kill the goat. How can the
+farmer move all his belongings to the other side of the river?
+
+You are given two jugs, a 4-gallon one and a 3-gallon one. There are no
+measuring markers on jugs. A tap can be used to fill the jugs with water. How
+can you get 2 gallons of water in the 4-gallon jug?
+
+===================================================================================
+
+Knight tour problem, N Queen problem and M coloring problem involve backtracking.
+Tower of hanoi uses simple recursion
